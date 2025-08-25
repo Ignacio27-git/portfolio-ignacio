@@ -1,0 +1,46 @@
+{
+    "header": {
+        "home": "Inicio",
+        "about": "Sobre mí",
+        "projects": "Proyectos",
+        "contact": "Contacto"
+    },
+    "hero": {
+        "greeting": "Hola, soy",
+        "name": "Ignacio",
+        "title": "Frontend con superpoderes en React 🪄",
+        "cta": {
+            "projects": "Ver Proyectos",
+            "cv": "Descargar CV"
+        }
+    },
+    "about": {
+        "title": "Sobre Mí",
+        "description": "Soy un desarrollador frontend apasionado con un ojo agudo para el diseño y un amor por crear experiencias de usuario intuitivas. Con experiencia en React y tecnologías web modernas, doy vida a las ideas a través de código limpio y eficiente.",
+        "skills": {
+            "react": "React",
+            "javascript": "JavaScript",
+            "tailwind": "Tailwind CSS",
+            "figma": "Figma"
+        }
+    },
+    "projects": {
+        "title": "Proyectos",
+        "cta": {
+            "demo": "Demo",
+            "code": "Código"
+        }
+    },
+    "contact": {
+        "title": "Contacto",
+        "form": {
+            "name": "Nombre",
+            "email": "Correo electrónico",
+            "message": "Mensaje",
+            "send": "Enviar Mensaje"
+        }
+    },
+    "footer": {
+        "copyright": "© 2025 Ignacio Jiménez Ramírez. Todos los derechos reservados."
+    }
+}

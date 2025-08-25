@@ -1,0 +1,46 @@
+{
+    "header": {
+        "home": "Accueil",
+        "about": "À propos",
+        "projects": "Projets",
+        "contact": "Contact"
+    },
+    "hero": {
+        "greeting": "Bonjour, je suis",
+        "name": "Ignacio",
+        "title": "Développeur Frontend spécialisé en React et UX/UI",
+        "cta": {
+            "projects": "Voir les Projets",
+            "cv": "Télécharger CV"
+        }
+    },
+    "about": {
+        "title": "À Propos de Moi",
+        "description": "Je suis un développeur frontend passionné avec un œil aiguisé pour le design et un amour pour la création d'expériences utilisateur intuitives. Avec une expertise en React et les technologies web modernes, je donne vie aux idées à travers un code propre et efficace.",
+        "skills": {
+            "react": "React",
+            "javascript": "JavaScript",
+            "tailwind": "Tailwind CSS",
+            "figma": "Figma"
+        }
+    },
+    "projects": {
+        "title": "Projets",
+        "cta": {
+            "demo": "Démo",
+            "code": "Code"
+        }
+    },
+    "contact": {
+        "title": "Contact",
+        "form": {
+            "name": "Nom",
+            "email": "Email",
+            "message": "Message",
+            "send": "Envoyer le Message"
+        }
+    },
+    "footer": {
+        "copyright": "© 2025 Ignacio Jiménez Ramírez. Tous droits réservés."
+    }
+}
