@@ -8,7 +8,7 @@
     "hero": {
         "greeting": "Hola, soy",
         "name": "Ignacio",
-        "title": "Frontend con superpoderes en React 🪄",
+        "title": "Desarrollador Frontend especializado en React y UX/UI",
         "cta": {
             "projects": "Ver Proyectos",
             "cv": "Descargar CV"
@@ -24,8 +24,75 @@
             "figma": "Figma"
         }
     },
+    "experience": {
+        "title": "Experiencia Laboral",
+        "jobs": {
+            "1": {
+                "company": "Tech Innovations Inc.",
+                "position": "Desarrollador Frontend Senior",
+                "period": "2022 - Presente",
+                "location": "San Francisco, CA",
+                "description": "Lideré el desarrollo de aplicaciones web responsivas utilizando React y frameworks modernos de JavaScript. Colaboré con diseñadores UX/UI para implementar interfaces pixel-perfect y mejorar la experiencia del usuario.",
+                "technologies": {
+                    "1": "React",
+                    "2": "TypeScript",
+                    "3": "GraphQL"
+                }
+            },
+            "2": {
+                "company": "Digital Solutions Ltd.",
+                "position": "Desarrollador Frontend",
+                "period": "2019 - 2022",
+                "location": "Boston, MA",
+                "description": "Desarrollé y mantuve múltiples aplicaciones web orientadas al cliente. Implementé diseños responsivos y aseguré compatibilidad entre navegadores.",
+                "technologies": {
+                    "1": "JavaScript",
+                    "2": "Vue.js",
+                    "3": "CSS/SCSS"
+                }
+            },
+            "3": {
+                "company": "Creative Web Agency",
+                "position": "Desarrollador Web Junior",
+                "period": "2017 - 2019",
+                "location": "Nueva York, NY",
+                "description": "Asistí en el desarrollo de sitios web para varios clientes. Me enfoqué en la implementación frontend y diseño responsivo.",
+                "technologies": {
+                    "1": "HTML5",
+                    "2": "CSS3",
+                    "3": "jQuery"
+                }
+            }
+        }
+    },
     "projects": {
         "title": "Proyectos",
+        "items": {
+            "1": {
+                "title": "Plataforma E-commerce",
+                "description": "Una solución moderna de comercio electrónico con funcionalidad de carrito, autenticación de usuarios y procesamiento de pagos."
+            },
+            "2": {
+                "title": "App de Gestión de Tareas",
+                "description": "Una herramienta de productividad para organizar tareas con funcionalidad de arrastrar y soltar y características de colaboración en equipo."
+            },
+            "3": {
+                "title": "Panel del Clima",
+                "description": "Aplicación de información meteorológica en tiempo real con pronósticos basados en ubicación y mapas interactivos."
+            },
+            "4": {
+                "title": "Panel de Redes Sociales",
+                "description": "Plataforma de análisis para seguir el engagement en múltiples plataformas de redes sociales."
+            },
+            "5": {
+                "title": "Generador de Portfolios",
+                "description": "Herramienta para crear portfolios profesionales con plantillas y secciones personalizables."
+            },
+            "6": {
+                "title": "Seguimiento de Fitness",
+                "description": "Aplicación para seguimiento de entrenamientos, nutrición y progreso con visualización de datos."
+            }
+        },
         "cta": {
             "demo": "Demo",
             "code": "Código"

@@ -24,8 +24,75 @@
             "figma": "Figma"
         }
     },
+    "experience": {
+        "title": "Berufserfahrung",
+        "jobs": {
+            "1": {
+                "company": "Tech Innovations Inc.",
+                "position": "Senior Frontend-Entwickler",
+                "period": "2022 - Heute",
+                "location": "San Francisco, CA",
+                "description": "Leitete die Entwicklung von responsiven Webanwendungen mit React und modernen JavaScript-Frameworks. Zusammenarbeit mit UX/UI-Designern zur Implementierung von pixel-perfekten Benutzeroberflächen und Verbesserung der Benutzererfahrung.",
+                "technologies": {
+                    "1": "React",
+                    "2": "TypeScript",
+                    "3": "GraphQL"
+                }
+            },
+            "2": {
+                "company": "Digital Solutions Ltd.",
+                "position": "Frontend-Entwickler",
+                "period": "2019 - 2022",
+                "location": "Boston, MA",
+                "description": "Entwicklung und Wartung mehrerer kundenorientierter Webanwendungen. Implementierung responsiver Designs und Sicherstellung der browserübergreifenden Kompatibilität.",
+                "technologies": {
+                    "1": "JavaScript",
+                    "2": "Vue.js",
+                    "3": "CSS/SCSS"
+                }
+            },
+            "3": {
+                "company": "Creative Web Agency",
+                "position": "Junior Web-Entwickler",
+                "period": "2017 - 2019",
+                "location": "New York, NY",
+                "description": "Unterstützung bei der Entwicklung von Websites für verschiedene Kunden. Fokus auf Frontend-Implementierung und responsives Design.",
+                "technologies": {
+                    "1": "HTML5",
+                    "2": "CSS3",
+                    "3": "jQuery"
+                }
+            }
+        }
+    },
     "projects": {
         "title": "Projekte",
+        "items": {
+            "1": {
+                "title": "E-Commerce-Plattform",
+                "description": "Eine moderne E-Commerce-Lösung mit Warenkorbfunktion, Benutzerauthentifizierung und Zahlungsabwicklung."
+            },
+            "2": {
+                "title": "Aufgabenverwaltungs-App",
+                "description": "Ein Produktivitätstool zur Organisation von Aufgaben mit Drag-and-Drop-Funktionalität und Teamkollaborationsfunktionen."
+            },
+            "3": {
+                "title": "Wetter-Dashboard",
+                "description": "Echtzeit-Wetterinformations-App mit standortbasierten Vorhersagen und interaktiven Karten."
+            },
+            "4": {
+                "title": "Social-Media-Dashboard",
+                "description": "Analyseplattform zur Verfolgung des Engagements über mehrere Social-Media-Plattformen hinweg."
+            },
+            "5": {
+                "title": "Portfolio-Generator",
+                "description": "Tool zum Erstellen professioneller Portfolios mit anpassbaren Vorlagen und Abschnitten."
+            },
+            "6": {
+                "title": "Fitness-Tracker",
+                "description": "Anwendung zur Verfolgung von Workouts, Ernährung und Fortschritt mit Datenvisualisierung."
+            }
+        },
         "cta": {
             "demo": "Demo",
             "code": "Code"

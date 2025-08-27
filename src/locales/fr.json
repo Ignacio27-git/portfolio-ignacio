@@ -24,8 +24,75 @@
             "figma": "Figma"
         }
     },
+    "experience": {
+        "title": "Expérience Professionnelle",
+        "jobs": {
+            "1": {
+                "company": "Tech Innovations Inc.",
+                "position": "Développeur Frontend Senior",
+                "period": "2022 - Présent",
+                "location": "San Francisco, CA",
+                "description": "J'ai dirigé le développement d'applications web responsives en utilisant React et des frameworks JavaScript modernes. J'ai collaboré avec des designers UX/UI pour implémenter des interfaces pixel-perfect et améliorer l'expérience utilisateur.",
+                "technologies": {
+                    "1": "React",
+                    "2": "TypeScript",
+                    "3": "GraphQL"
+                }
+            },
+            "2": {
+                "company": "Digital Solutions Ltd.",
+                "position": "Développeur Frontend",
+                "period": "2019 - 2022",
+                "location": "Boston, MA",
+                "description": "J'ai développé et maintenu plusieurs applications web destinées aux clients. J'ai implémenté des designs responsifs et assuré la compatibilité entre navigateurs.",
+                "technologies": {
+                    "1": "JavaScript",
+                    "2": "Vue.js",
+                    "3": "CSS/SCSS"
+                }
+            },
+            "3": {
+                "company": "Creative Web Agency",
+                "position": "Développeur Web Junior",
+                "period": "2017 - 2019",
+                "location": "New York, NY",
+                "description": "J'ai assisté au développement de sites web pour divers clients. Je me suis concentré sur l'implémentation frontend et le design responsif.",
+                "technologies": {
+                    "1": "HTML5",
+                    "2": "CSS3",
+                    "3": "jQuery"
+                }
+            }
+        }
+    },
     "projects": {
         "title": "Projets",
+        "items": {
+            "1": {
+                "title": "Plateforme E-commerce",
+                "description": "Une solution de commerce électronique moderne avec fonctionnalité de panier, authentification utilisateur et traitement des paiements."
+            },
+            "2": {
+                "title": "Application de Gestion des Tâches",
+                "description": "Un outil de productivité pour organiser les tâches avec fonctionnalité glisser-déposer et fonctionnalités de collaboration d'équipe."
+            },
+            "3": {
+                "title": "Tableau de Bord Météo",
+                "description": "Application d'information météorologique en temps réel avec prévisions basées sur la localisation et cartes interactives."
+            },
+            "4": {
+                "title": "Tableau de Bord des Médias Sociaux",
+                "description": "Plateforme d'analyse pour suivre l'engagement sur plusieurs plateformes de médias sociaux."
+            },
+            "5": {
+                "title": "Générateur de Portfolio",
+                "description": "Outil pour créer des portfolios professionnels avec des modèles et sections personnalisables."
+            },
+            "6": {
+                "title": "Suivi de Fitness",
+                "description": "Application pour suivre les entraînements, la nutrition et les progrès avec visualisation des données."
+            }
+        },
         "cta": {
             "demo": "Démo",
             "code": "Code"
