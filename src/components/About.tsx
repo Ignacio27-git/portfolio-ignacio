@@ -1,17 +1,19 @@
-import React from 'react';
+import { type FC } from 'react';
 import { Card, CardBody } from "@heroui/react";
-import { useTranslation } from 'react-i18next';
 import { motion } from 'framer-motion';
 import { Icon } from '@iconify/react';
 
-const About: React.FC = () => {
-    const { t } = useTranslation();
+interface AboutProps {
+    t: (key: string) => string;
+}
 
+const About: FC<AboutProps> = ({ t }) => {
     const skills = [
         { name: 'react', icon: 'logos:react' },
+        { name: 'webpack', icon: 'logos:webpack' },
         { name: 'javascript', icon: 'logos:javascript' },
-        { name: 'tailwind', icon: 'logos:tailwindcss-icon' },
-        { name: 'figma', icon: 'logos:figma' },
+        { name: 'sass', icon: 'logos:sass' },
+        { name: 'html', icon: 'logos:html-5' },
     ];
 
     return (
@@ -20,8 +22,7 @@ const About: React.FC = () => {
             className="py-20"
             initial={{ opacity: 0 }}
             animate={{ opacity: 1 }}
-            transition={{ duration: 0.5 }}
-        >
+            transition={{ duration: 0.5 }}>
             <h2 className="text-3xl font-bold mb-8 text-center">{t('about.title')}</h2>
             <Card className="max-w-3xl mx-auto">
                 <CardBody>

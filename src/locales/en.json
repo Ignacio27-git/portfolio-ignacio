@@ -1,14 +1,14 @@
 {
     "header": {
         "home": "Home",
-        "about": "About",
+        "about": "About Me",
         "projects": "Projects",
         "contact": "Contact"
     },
     "hero": {
         "greeting": "Hello, I'm",
         "name": "Ignacio",
-        "title": "Frontend Developer specialized in React and UX/UI",
+        "title": "Frontend Developer with React superpowers 🪄",
         "cta": {
             "projects": "View Projects",
             "cv": "Download CV"
@@ -20,12 +20,23 @@
         "skills": {
             "react": "React",
             "javascript": "JavaScript",
-            "tailwind": "Tailwind CSS",
-            "figma": "Figma"
+            "sass": "SASS",
+            "webpack": "Webpack",
+            "html": "HTML5"
         }
     },
     "projects": {
         "title": "Projects",
+        "items": {
+            "1": {
+                "title": "Kreator",
+                "description": "Platform for creating educational content in both book format and interactive course format simultaneously, allowing the addition of interactive elements to add dynamism to the content, all in an editor that allows multiple users to edit simultaneously. It also has a user and role management component."
+            },
+            "2": {
+                "title": "Luna",
+                "description": "Platform for creating and managing Moodle campuses, allowing the creation and customization of campuses, user management, courses, and roles."
+            }
+        },
         "cta": {
             "demo": "Demo",
             "code": "Code"

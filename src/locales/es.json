@@ -8,7 +8,7 @@
     "hero": {
         "greeting": "Hola, soy",
         "name": "Ignacio",
-        "title": "Frontend con superpoderes en React 🪄",
+        "title": "Desarrollador Frontend con superpoderes en React 🪄",
         "cta": {
             "projects": "Ver Proyectos",
             "cv": "Descargar CV"
@@ -20,12 +20,23 @@
         "skills": {
             "react": "React",
             "javascript": "JavaScript",
-            "tailwind": "Tailwind CSS",
-            "figma": "Figma"
+            "sass": "SASS",
+            "webpack": "Webpack",
+            "html": "HTML5"
         }
     },
     "projects": {
         "title": "Proyectos",
+        "items": {
+            "1": {
+                "title": "Kreator",
+                "description": "Plataforma para la creación de contenido didactico en formato libro y en formato curso interactivo de manera simultánea, permitiendo añadir elementos interactivos para añadir dinamismo al contenido, todo en un editor que permite la edición de varios usuarios de forma simultánea. \nTambién tiene un componente de gestión de usuarios y roles."
+            },
+            "2": {
+                "title": "Luna",
+                "description": "Plataforma para la creación y gestión de campus moodle, permite la creación y personalización de los campus, gestión de usuarios, cursos y roles."
+            }
+        },
         "cta": {
             "demo": "Demo",
             "code": "Código"

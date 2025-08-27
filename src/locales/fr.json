@@ -8,7 +8,7 @@
     "hero": {
         "greeting": "Bonjour, je suis",
         "name": "Ignacio",
-        "title": "Développeur Frontend spécialisé en React et UX/UI",
+        "title": "Développeur Frontend avec des superpouvoirs React 🪄",
         "cta": {
             "projects": "Voir les Projets",
             "cv": "Télécharger CV"
@@ -20,12 +20,23 @@
         "skills": {
             "react": "React",
             "javascript": "JavaScript",
-            "tailwind": "Tailwind CSS",
-            "figma": "Figma"
+            "sass": "SASS",
+            "webpack": "Webpack",
+            "html": "HTML5"
         }
     },
     "projects": {
         "title": "Projets",
+        "items": {
+            "1": {
+                "title": "Kreator",
+                "description": "Plateforme pour la création de contenu éducatif au format livre et au format cours interactif simultanément, permettant d'ajouter des éléments interactifs pour dynamiser le contenu, le tout dans un éditeur qui permet à plusieurs utilisateurs d'éditer simultanément. Elle comprend également un composant de gestion des utilisateurs et des rôles."
+            },
+            "2": {
+                "title": "Luna",
+                "description": "Plateforme pour la création et la gestion de campus Moodle, permettant la création et la personnalisation des campus, la gestion des utilisateurs, des cours et des rôles."
+            }
+        },
         "cta": {
             "demo": "Démo",
             "code": "Code"

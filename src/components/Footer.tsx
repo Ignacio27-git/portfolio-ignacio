@@ -1,9 +1,10 @@
-import React from 'react';
-import { useTranslation } from 'react-i18next';
+import { type FC } from 'react';
 
-const Footer: React.FC = () => {
-    const { t } = useTranslation();
+interface FooterProps {
+    t: (key: string) => string;
+}
 
+const Footer: FC<FooterProps> = ({ t }) => {
     return (
         <footer className="bg-content1 py-6">
             <div className="container mx-auto px-4 text-center">

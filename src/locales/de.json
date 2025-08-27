@@ -8,24 +8,35 @@
     "hero": {
         "greeting": "Hallo, ich bin",
         "name": "Ignacio",
-        "title": "Frontend-Entwickler spezialisiert auf React und UX/UI",
+        "title": "Frontend-Entwickler mit Superkräften in React 🪄",
         "cta": {
             "projects": "Projekte ansehen",
             "cv": "Lebenslauf herunterladen"
         }
     },
     "about": {
-        "title": "Über Mich",
-        "description": "Ich bin ein leidenschaftlicher Frontend-Entwickler mit einem Auge für Design und einer Vorliebe für die Erstellung intuitiver Benutzererfahrungen. Mit Expertise in React und modernen Webtechnologien bringe ich Ideen durch sauberen, effizienten Code zum Leben.",
+        "title": "Über mich",
+        "description": "Ich bin ein leidenschaftlicher Frontend-Entwickler mit einem Auge für Design und der Liebe dazu, intuitive Benutzererlebnisse zu schaffen. Mit Erfahrung in React und modernen Web-Technologien erwecke ich Ideen durch sauberen und effizienten Code zum Leben.",
         "skills": {
             "react": "React",
             "javascript": "JavaScript",
-            "tailwind": "Tailwind CSS",
-            "figma": "Figma"
+            "sass": "SASS",
+            "webpack": "Webpack",
+            "html": "HTML5"
         }
     },
     "projects": {
         "title": "Projekte",
+        "items": {
+            "1": {
+                "title": "Kreator",
+                "description": "Plattform zur gleichzeitigen Erstellung von Lehrinhalten im Buch- und interaktiven Kursformat, die das Hinzufügen interaktiver Elemente zur Dynamisierung des Inhalts ermöglicht, alles in einem Editor, der die gleichzeitige Bearbeitung durch mehrere Benutzer erlaubt. \nEs verfügt auch über eine Komponente zur Benutzer- und Rollenverwaltung."
+            },
+            "2": {
+                "title": "Luna",
+                "description": "Plattform zur Erstellung und Verwaltung von Moodle-Campus, die die Erstellung und Anpassung der Campus, die Verwaltung von Benutzern, Kursen und Rollen ermöglicht."
+            }
+        },
         "cta": {
             "demo": "Demo",
             "code": "Code"
