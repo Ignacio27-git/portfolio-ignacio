@@ -19,6 +19,7 @@ const Hero: FC<HeroProps> = ({t}) => {
             <p className="text-xl mb-8">{t('hero.title')}</p>
             <div className="flex gap-4">
                 <Button color="primary" href="#projects">{t('hero.cta.projects')}</Button>
+                {/* https://www.canva.com/design/DAGxRKA7dU8/nc2uXOL15_r1uM3sHSIhkw/view?utm_content=DAGxRKA7dU8&utm_campaign=designshare&utm_medium=link2&utm_source=uniquelinks&utlId=h057a426197 */}
                 <Button variant="bordered" color="primary">{t('hero.cta.cv')}</Button>
             </div>
         </motion.section>

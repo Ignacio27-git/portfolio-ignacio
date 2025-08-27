@@ -7,7 +7,7 @@ interface ProjectsProps {
 }
 
 const Projects: FC<ProjectsProps> = ({ t }) => {
-    const projectIds = [1, 2, 3, 4, 5, 6];
+    const projectIds = [1, 2];
 
     return (
         <motion.section
@@ -17,12 +17,13 @@ const Projects: FC<ProjectsProps> = ({ t }) => {
             animate={{ opacity: 1 }}
             transition={{ duration: 0.5 }}>
             <h2 className="text-3xl font-bold mb-8 text-center">{t('projects.title')}</h2>
-            <div className="grid grid-cols-1 md:grid-cols-2 lg:grid-cols-3 gap-8">
+            <div className="flex justify-center gap-8 flex-wrap">
                 {projectIds.map((id) => (
                     <motion.div
                         key={id}
                         whileHover={{ scale: 1.05 }}
-                        transition={{ duration: 0.2 }}>
+                        transition={{ duration: 0.2 }}
+                        className='w-full max-w-md'>
                         <Card className="h-full">
                             <CardBody className="p-0">
                                 <Image

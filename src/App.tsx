@@ -5,7 +5,6 @@ import i18nConf from './i18n';
 import Header from './components/Header';
 import Hero from './components/Hero';
 import About from './components/About';
-import Experience from './components/Experience';
 import Projects from './components/Projects';
 import Contact from './components/Contact';
 import Footer from './components/Footer';
@@ -31,7 +30,6 @@ const App: FC = () => {
                     <main className="container mx-auto px-4">
                         <Hero t={t} />
                         <About t={t} />
-                        <Experience t={t} />
                         <Projects t={t} />
                         <Contact t={t} />
                     </main>
