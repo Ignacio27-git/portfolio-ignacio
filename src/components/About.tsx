@@ -10,9 +10,10 @@ interface AboutProps {
 const About: FC<AboutProps> = ({ t }) => {
     const skills = [
         { name: 'react', icon: 'logos:react' },
+        { name: 'webpack', icon: 'logos:webpack' },
         { name: 'javascript', icon: 'logos:javascript' },
-        { name: 'tailwind', icon: 'logos:tailwindcss-icon' },
-        { name: 'figma', icon: 'logos:figma' },
+        { name: 'sass', icon: 'logos:sass' },
+        { name: 'html', icon: 'logos:html-5' },
     ];
 
     return (

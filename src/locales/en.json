@@ -1,14 +1,14 @@
 {
     "header": {
         "home": "Home",
-        "about": "About",
+        "about": "About Me",
         "projects": "Projects",
         "contact": "Contact"
     },
     "hero": {
         "greeting": "Hello, I'm",
         "name": "Ignacio",
-        "title": "Frontend Developer specialized in React and UX/UI",
+        "title": "Frontend Developer with React superpowers 🪄",
         "cta": {
             "projects": "View Projects",
             "cv": "Download CV"
@@ -20,77 +20,21 @@
         "skills": {
             "react": "React",
             "javascript": "JavaScript",
-            "tailwind": "Tailwind CSS",
-            "figma": "Figma"
-        }
-    },
-    "experience": {
-        "title": "Work Experience",
-        "jobs": {
-            "1": {
-                "company": "Tech Innovations Inc.",
-                "position": "Senior Frontend Developer",
-                "period": "2022 - Present",
-                "location": "San Francisco, CA",
-                "description": "Led the development of responsive web applications using React and modern JavaScript frameworks. Collaborated with UX/UI designers to implement pixel-perfect interfaces and improve user experience.",
-                "technologies": {
-                    "1": "React",
-                    "2": "TypeScript",
-                    "3": "GraphQL"
-                }
-            },
-            "2": {
-                "company": "Digital Solutions Ltd.",
-                "position": "Frontend Developer",
-                "period": "2019 - 2022",
-                "location": "Boston, MA",
-                "description": "Developed and maintained multiple client-facing web applications. Implemented responsive designs and ensured cross-browser compatibility.",
-                "technologies": {
-                    "1": "JavaScript",
-                    "2": "Vue.js",
-                    "3": "CSS/SCSS"
-                }
-            },
-            "3": {
-                "company": "Creative Web Agency",
-                "position": "Junior Web Developer",
-                "period": "2017 - 2019",
-                "location": "New York, NY",
-                "description": "Assisted in the development of websites for various clients. Focused on frontend implementation and responsive design.",
-                "technologies": {
-                    "1": "HTML5",
-                    "2": "CSS3",
-                    "3": "jQuery"
-                }
-            }
+            "sass": "SASS",
+            "webpack": "Webpack",
+            "html": "HTML5"
         }
     },
     "projects": {
         "title": "Projects",
         "items": {
             "1": {
-                "title": "E-commerce Platform",
-                "description": "A modern e-commerce solution with cart functionality, user authentication, and payment processing."
+                "title": "Kreator",
+                "description": "Platform for creating educational content in both book format and interactive course format simultaneously, allowing the addition of interactive elements to add dynamism to the content, all in an editor that allows multiple users to edit simultaneously. It also has a user and role management component."
             },
             "2": {
-                "title": "Task Management App",
-                "description": "A productivity tool for organizing tasks with drag-and-drop functionality and team collaboration features."
-            },
-            "3": {
-                "title": "Weather Dashboard",
-                "description": "Real-time weather information app with location-based forecasts and interactive maps."
-            },
-            "4": {
-                "title": "Social Media Dashboard",
-                "description": "Analytics platform for tracking engagement across multiple social media platforms."
-            },
-            "5": {
-                "title": "Portfolio Generator",
-                "description": "Tool for creating professional portfolios with customizable templates and sections."
-            },
-            "6": {
-                "title": "Fitness Tracker",
-                "description": "Application for tracking workouts, nutrition, and progress with data visualization."
+                "title": "Luna",
+                "description": "Platform for creating and managing Moodle campuses, allowing the creation and customization of campuses, user management, courses, and roles."
             }
         },
         "cta": {

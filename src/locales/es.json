@@ -8,7 +8,7 @@
     "hero": {
         "greeting": "Hola, soy",
         "name": "Ignacio",
-        "title": "Desarrollador Frontend especializado en React y UX/UI",
+        "title": "Desarrollador Frontend con superpoderes en React 🪄",
         "cta": {
             "projects": "Ver Proyectos",
             "cv": "Descargar CV"
@@ -20,8 +20,9 @@
         "skills": {
             "react": "React",
             "javascript": "JavaScript",
-            "tailwind": "Tailwind CSS",
-            "figma": "Figma"
+            "sass": "SASS",
+            "webpack": "Webpack",
+            "html": "HTML5"
         }
     },
     "projects": {
