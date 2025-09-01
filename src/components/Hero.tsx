@@ -7,6 +7,21 @@ interface HeroProps {
 }
 
 const Hero: FC<HeroProps> = ({t}) => {
+
+    const navProjects = () => {
+        const projectsSection = document.getElementById('projects');
+        if (projectsSection) projectsSection.scrollIntoView();
+    };
+
+    const downloadCV = () => {
+        const link = document.createElement('a');
+        link.href = '/ignaciojimenezramirez.pdf';
+        link.download = 'ignaciojimenezramirez.pdf';
+        document.body.appendChild(link);
+        link.click();
+        document.body.removeChild(link);
+    };
+    
     return (
         <motion.section
             id="home"
@@ -18,9 +33,9 @@ const Hero: FC<HeroProps> = ({t}) => {
             <h1 className="text-4xl font-bold mb-4">{t('hero.greeting')} <span className="text-primary">{t('hero.name')}</span></h1>
             <p className="text-xl mb-8">{t('hero.title')}</p>
             <div className="flex gap-4">
-                <Button color="primary" href="#projects">{t('hero.cta.projects')}</Button>
+                <Button color="primary" onClick={navProjects}>{t('hero.cta.projects')}</Button>
                 {/* https://www.canva.com/design/DAGxRKA7dU8/nc2uXOL15_r1uM3sHSIhkw/view?utm_content=DAGxRKA7dU8&utm_campaign=designshare&utm_medium=link2&utm_source=uniquelinks&utlId=h057a426197 */}
-                <Button variant="bordered" color="primary">{t('hero.cta.cv')}</Button>
+                <Button variant="bordered" color="primary" onClick={downloadCV}>{t('hero.cta.cv')}</Button>
             </div>
         </motion.section>
     );
