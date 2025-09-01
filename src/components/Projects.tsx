@@ -36,8 +36,9 @@ const Projects: FC<ProjectsProps> = ({ t }) => {
                                 </div>
                             </CardBody>
                             <CardFooter className="justify-between">
-                                <Button size="sm">{t('projects.cta.demo')}</Button>
-                                <Button size="sm" variant="bordered">{t('projects.cta.code')}</Button>
+                                {/* <Button size="sm">{t('projects.cta.demo')}</Button>
+                                <Button size="sm" variant="bordered">{t('projects.cta.code')}</Button> */}
+                                <p>{t('projects.cta.inprogress')}</p>
                             </CardFooter>
                         </Card>
                     </motion.div>

@@ -16,11 +16,14 @@
     },
     "about": {
         "title": "About Me",
-        "description": "I'm a passionate frontend developer with a keen eye for design and a love for creating intuitive user experiences. With expertise in React and modern web technologies, I bring ideas to life through clean, efficient code.",
+        "description1": "I'm a front-end developer and I enjoy giving shape to ideas through the web. I work primarily with React and modern technologies, always striving for interfaces that are clear, fast, and easy to use. I pay close attention to design details and enjoy creating user-friendly and comfortable experiences.",
+        "description2": "I've also worked with microfrontends configured with Webpack, which has allowed me to participate in large, modular projects. I enjoy collaborating with design and backend teams to ensure product consistency and bring ideas to production in the best possible way. I'm always learning new tools and best practices to improve the quality and performance of my code.",
         "skills": {
             "react": "React",
             "javascript": "JavaScript",
+            "typescript": "TypeScript",
             "sass": "SASS",
+            "tailwindcss": "Tailwind CSS",
             "webpack": "Webpack",
             "html": "HTML5"
         }
@@ -39,7 +42,8 @@
         },
         "cta": {
             "demo": "Demo",
-            "code": "Code"
+            "code": "Code",
+            "inprogress": "Still in development."
         }
     },
     "contact": {
@@ -49,6 +53,10 @@
             "email": "Email",
             "message": "Message",
             "send": "Send Message"
+        },
+        "emailSent": {
+            "success": "Message sent successfully.",
+            "error": "Error sending message."
         }
     },
     "footer": {

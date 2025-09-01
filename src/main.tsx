@@ -1,10 +1,14 @@
-import { HeroUIProvider, ToastProvider } from "@heroui/react";
 import React from "react";
 import ReactDOM from "react-dom/client";
+
+import { HeroUIProvider, ToastProvider } from "@heroui/react";
+import emailjs from "emailjs-com";
 
 import App from "./App.tsx";
 
 import "./index.css";
+
+emailjs.init("OEMfpyI7HgOHLXmfg");
 
 ReactDOM.createRoot(document.getElementById("root")!).render(
     <React.StrictMode>
