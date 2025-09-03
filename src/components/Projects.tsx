@@ -27,7 +27,7 @@ const Projects: FC<ProjectsProps> = ({ t }) => {
                         <Card className="h-full">
                             <CardBody className="p-0">
                                 <Image
-                                    src={`https://img.heroui.chat/image/dashboard?w=400&h=300&u=${id}`}
+                                    src={`/${id}.png`}
                                     alt={t(`projects.items.${id}.title`)}
                                     className="w-full h-48 object-cover" />
                                 <div className="p-4">
