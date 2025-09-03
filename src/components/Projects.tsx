@@ -29,7 +29,7 @@ const Projects: FC<ProjectsProps> = ({ t }) => {
                                 <Image
                                     src={`/${id}.png`}
                                     alt={t(`projects.items.${id}.title`)}
-                                    className="w-full h-48 object-cover" />
+                                    className="w-full h-48 object-cover m-auto" />
                                 <div className="p-4">
                                     <h3 className="text-xl font-semibold mb-2">{t(`projects.items.${id}.title`)}</h3>
                                     <p className="text-sm text-default-500">{t(`projects.items.${id}.description`)}</p>
