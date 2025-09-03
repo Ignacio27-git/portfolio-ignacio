@@ -26,10 +26,12 @@ const Projects: FC<ProjectsProps> = ({ t }) => {
                         className='w-full max-w-md'>
                         <Card className="h-full">
                             <CardBody className="p-0">
-                                <Image
-                                    src={`/${id}.png`}
-                                    alt={t(`projects.items.${id}.title`)}
-                                    className="w-full h-48 object-cover m-auto" />
+                                <div className="m-auto">
+                                    <Image
+                                        src={`/${id}.png`}
+                                        alt={t(`projects.items.${id}.title`)}
+                                        className="w-full h-48 object-cover" />
+                                </div>
                                 <div className="p-4">
                                     <h3 className="text-xl font-semibold mb-2">{t(`projects.items.${id}.title`)}</h3>
                                     <p className="text-sm text-default-500">{t(`projects.items.${id}.description`)}</p>
