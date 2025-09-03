@@ -26,7 +26,7 @@ const Projects: FC<ProjectsProps> = ({ t }) => {
                         className='w-full max-w-md'>
                         <Card className="h-full">
                             <CardBody className="p-0">
-                                <div className="m-auto">
+                                <div className="mx-auto">
                                     <Image
                                         src={`/${id}.png`}
                                         alt={t(`projects.items.${id}.title`)}
