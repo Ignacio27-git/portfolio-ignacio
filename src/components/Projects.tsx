@@ -1,5 +1,5 @@
 import { type FC } from 'react';
-import { Card, CardBody, CardFooter, Button, Image } from "@heroui/react";
+import { Card, CardBody, CardFooter, Image } from "@heroui/react";
 import { motion } from 'framer-motion';
 
 interface ProjectsProps {
@@ -7,7 +7,7 @@ interface ProjectsProps {
 }
 
 const Projects: FC<ProjectsProps> = ({ t }) => {
-    const projectIds = [1, 2];
+    const projectIds = [1, 2, 3];
 
     return (
         <motion.section
@@ -38,9 +38,11 @@ const Projects: FC<ProjectsProps> = ({ t }) => {
                                 </div>
                             </CardBody>
                             <CardFooter className="justify-between">
-                                {/* <Button size="sm">{t('projects.cta.demo')}</Button>
-                                <Button size="sm" variant="bordered">{t('projects.cta.code')}</Button> */}
-                                <p>{t('projects.cta.inprogress')}</p>
+                                {id === 3 ? <p>{t('projects.cta.private')}</p> : <p>{t('projects.cta.inprogress')}</p>}
+                                    {/* <>
+                                        <Button size="sm">{t('projects.cta.demo')}</Button>
+                                        <Button size="sm" variant="bordered">{t('projects.cta.code')}</Button>
+                                    </> */}
                             </CardFooter>
                         </Card>
                     </motion.div>

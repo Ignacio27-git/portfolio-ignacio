@@ -38,12 +38,17 @@
             "2": {
                 "title": "Luna",
                 "description": "Plattform zur Erstellung und Verwaltung von Moodle-Campus, die die Erstellung und Anpassung der Campus, die Verwaltung von Benutzern, Kursen und Rollen ermöglicht."
+            },
+            "3": {
+                "title": "Komponentenbibliothek",
+                "description": "Mit Vite erstellte React-Komponentenbibliothek, die zugängliche, anpassbare und leistungsoptimierte Komponenten enthält."
             }
         },
         "cta": {
             "demo": "Demo",
             "code": "Code",
-            "inprogress": "Noch in der Entwicklung."
+            "inprogress": "Noch in der Entwicklung.",
+            "private": "Privates Projekt des Unternehmens."
         }
     },
     "contact": {

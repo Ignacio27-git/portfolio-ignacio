@@ -38,12 +38,17 @@
             "2": {
                 "title": "Luna",
                 "description": "Plataforma para la creación y gestión de campus moodle, permite la creación y personalización de los campus, gestión de usuarios, cursos y roles."
+            },
+            "3": {
+                "title": "Librería de componentes",
+                "description": "Librería de componentes React creada Vite, que incluye componentes accesibles, personalizables y optimizados para un buen rendimiento."
             }
         },
         "cta": {
             "demo": "Demo",
             "code": "Código",
-            "inprogress": "Todavía en desarrollo."
+            "inprogress": "Todavía en desarrollo.",
+            "private": "Proyecto privado de la empresa."
         }
     },
     "contact": {
