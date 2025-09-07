@@ -28,7 +28,7 @@ const App: FC = () => {
                     className="min-h-screen bg-background text-foreground">
                     <Header theme={theme} setTheme={setTheme} t={t} i18n={i18n} />
                     <main className="container mx-auto px-4">
-                        <Hero t={t} />
+                        <Hero t={t} i18n={i18n} />
                         <About t={t} />
                         <Projects t={t} />
                         <Contact t={t} />

@@ -4,10 +4,10 @@ import { motion } from 'framer-motion';
 
 interface HeroProps {
     t: (key: string) => string;
+    i18n: { changeLanguage: (lng: string) => void; language: string; };
 }
 
-const Hero: FC<HeroProps> = ({t}) => {
-
+const Hero: FC<HeroProps> = ({t, i18n}) => {
     const navProjects = () => {
         const projectsSection = document.getElementById('projects');
         if (projectsSection) projectsSection.scrollIntoView();
@@ -15,8 +15,8 @@ const Hero: FC<HeroProps> = ({t}) => {
 
     const downloadCV = () => {
         const link = document.createElement('a');
-        link.href = '/ignaciojimenezramirez.pdf';
-        link.download = 'ignaciojimenezramirez.pdf';
+        link.href = `/ignaciojimenezramirez-${i18n.language}.pdf`;
+        link.download = `ignaciojimenezramirez-${i18n.language}.pdf`;
         document.body.appendChild(link);
         link.click();
         document.body.removeChild(link);
@@ -34,7 +34,6 @@ const Hero: FC<HeroProps> = ({t}) => {
             <p className="text-xl mb-8">{t('hero.title')}</p>
             <div className="flex gap-4">
                 <Button color="primary" onClick={navProjects}>{t('hero.cta.projects')}</Button>
-                {/* https://www.canva.com/design/DAGxRKA7dU8/nc2uXOL15_r1uM3sHSIhkw/view?utm_content=DAGxRKA7dU8&utm_campaign=designshare&utm_medium=link2&utm_source=uniquelinks&utlId=h057a426197 */}
                 <Button variant="bordered" color="primary" onClick={downloadCV}>{t('hero.cta.cv')}</Button>
             </div>
         </motion.section>
