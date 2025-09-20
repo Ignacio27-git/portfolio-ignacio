@@ -1,6 +1,7 @@
 import { type FC } from 'react';
 import { Card, CardBody, CardFooter, Image } from "@heroui/react";
 import { motion } from 'framer-motion';
+import { Icon } from '@iconify/react';
 
 interface ProjectsProps {
     t: (key: string) => string;
@@ -8,6 +9,20 @@ interface ProjectsProps {
 
 const Projects: FC<ProjectsProps> = ({ t }) => {
     const projectIds = [1, 2, 3];
+
+    const skills = [
+        { name: 'react', icon: 'logos:react' },
+        { name: 'webpack', icon: 'logos:webpack' },
+        { name: 'javascript', icon: 'logos:javascript' },
+        { name: 'sass', icon: 'logos:sass' },
+    ];
+
+    const skills2 = [
+        { name: 'react', icon: 'logos:react' },
+        { name: 'vite', icon: 'logos:vitejs' },
+        { name: 'typescript', icon: 'logos:typescript-icon' },
+        { name: 'tailwindcss', icon: 'logos:tailwindcss-icon' },
+    ]
 
     return (
         <motion.section
@@ -36,10 +51,14 @@ const Projects: FC<ProjectsProps> = ({ t }) => {
                                     <h3 className="text-xl font-semibold mb-2">{t(`projects.items.${id}.title`)}</h3>
                                     <p className="text-sm text-default-500">{t(`projects.items.${id}.description`)}</p>
                                 </div>
+                                <div className="p-4 flex flex-wrap gap-4 mt-auto">
+                                    {(id === 1 || id === 2) && skills.map((skill) => <Icon key={skill.name} icon={skill.icon} className="text-2xl" />)}
+                                    {id === 3 && skills2.map((skill) => <Icon key={skill.name} icon={skill.icon} className="text-2xl" />)}
+                                </div>
                             </CardBody>
                             <CardFooter className="justify-between">
                                 {id === 3 ? <p>{t('projects.cta.private')}</p> : <p>{t('projects.cta.inprogress')}</p>}
-                                    {/* <>
+                                {/* <>
                                         <Button size="sm">{t('projects.cta.demo')}</Button>
                                         <Button size="sm" variant="bordered">{t('projects.cta.code')}</Button>
                                     </> */}

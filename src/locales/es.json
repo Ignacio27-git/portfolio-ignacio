@@ -25,7 +25,10 @@
             "sass": "SASS",
             "tailwindcss": "Tailwind CSS",
             "webpack": "Webpack",
-            "html": "HTML5"
+            "html": "HTML5",
+            "vite": "Vite",
+            "git": "Git",
+            "github": "GitHub"
         }
     },
     "projects": {
