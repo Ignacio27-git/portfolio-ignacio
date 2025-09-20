@@ -10,12 +10,15 @@ interface AboutProps {
 const About: FC<AboutProps> = ({ t }) => {
     const skills = [
         { name: 'react', icon: 'logos:react' },
+        { name: 'vite', icon: 'logos:vitejs' },
         { name: 'webpack', icon: 'logos:webpack' },
         { name: 'javascript', icon: 'logos:javascript' },
         { name: 'typescript', icon: 'logos:typescript-icon' },
         { name: 'sass', icon: 'logos:sass' },
         { name: 'tailwindcss', icon: 'logos:tailwindcss-icon' },
         { name: 'html', icon: 'logos:html-5' },
+        { name: 'git', icon: 'logos:git-icon' },
+        { name: 'github', icon: 'logos:github-copilot' },
     ];
 
     return (
