@@ -8,8 +8,6 @@ import App from "./App.tsx";
 
 import "./index.css";
 
-// emailjs.init("OEMfpyI7HgOHLXmfg");
-console.log(import.meta.env.VITE_API_EMAILJS_TOKEN)
 emailjs.init(import.meta.env.VITE_API_EMAILJS_TOKEN);
 
 ReactDOM.createRoot(document.getElementById("root")!).render(
